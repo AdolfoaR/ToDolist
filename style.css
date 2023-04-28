@@ -1,0 +1,52 @@
+body {
+	background-color: #e4fad6;
+}
+.container {
+	margin-top: 50px;
+}
+.list-group-item {
+	background-color: #fff;
+	border-color: #ddd;
+	color: #333;
+}
+.list-group-item .glyphicon-remove {
+	display: none;
+	float: right;
+	color: #d9534f;
+	cursor: pointer;
+    
+}
+.list-group-item:hover .glyphicon-remove {
+	display: block;
+}
+
+.list-group-item-info {
+    background-color: #95ff6b;
+  }
+  
+  .list-group-item-danger {
+    background-color: #ea8499;
+  }
+  
+  .task-form {
+    margin-bottom: 20px;
+  }
+  
+  .task-form .form-group {
+    margin-bottom: 0;
+  }
+  
+  .task-form .form-control {
+    width: 80%;
+    display: inline-block;
+  }
+  
+  .task-form .btn {
+    display: inline-block;
+  }
+  
+  .new-task-error {
+    color: red;
+    display: none;
+  }
+  
